@@ -1,4 +1,4 @@
-# Generative Agents CN: Self-Evolving Multi-Agent Simulation
+# Generative Agents RL: Self-Evolving Multi-Agent Simulation
 
 <div align="center">
 
