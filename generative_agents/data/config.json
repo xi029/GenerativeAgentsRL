@@ -1,0 +1,33 @@
+{
+    "agent": {
+        "percept": {
+            "mode": "box",
+            "vision_r": 8,
+            "att_bandwidth": 8
+        },
+        "schedule": {
+            "max_try": 5,
+            "diversity": 5
+        },
+        "think": {
+            "llm": {
+                "provider": "ollama",
+                "model": "qwen3:4b-instruct-2507-q4_K_M",
+                "base_url": "http://127.0.0.1:11434/v1",
+                "api_key": ""
+            },
+            "interval": 1000,
+            "poignancy_max": 150
+        },
+        "chat_iter": 4,
+        "associate": {
+            "embedding": {
+                "provider": "ollama",
+                "model": "qwen3-embedding:0.6b-q8_0",
+                "base_url": "http://127.0.0.1:11434",
+                "api_key": ""
+            },
+            "retention": 8
+        }
+    }
+}
