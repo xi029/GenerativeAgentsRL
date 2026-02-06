@@ -7,7 +7,7 @@ from typing import Dict, List, Optional
 from openai import OpenAI
 
 # ===================== 配置项（按需修改） =====================
-DEFAULT_API_KEY = os.environ.get('DEEPSEEK_API_KEY') or "sk-e1fecac7367d455582948fdbc52cc4e4" # 你的DeepSeek API Key
+DEFAULT_API_KEY = os.environ.get('DEEPSEEK_API_KEY') or "sk-xxxxxxx" # 你的DeepSeek API Key
 DEFAULT_BASE_URL = "https://api.deepseek.com"  # DeepSeek API 地址
 DEFAULT_MODEL = "deepseek-chat"  # DeepSeek 模型
 
